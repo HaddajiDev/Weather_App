@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..600&family=Lobster&display=swap');
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(213, 212, 233) !important;    
+}
+.space{
+    height: 20px;
+}
+.title{
+    width: 100px;
+    margin-top: 10px;
+    font-family: "Lobster", sans-serif;
+}
+.nab{
+    padding: 1%;
+}
+.Main_Section{
+    padding: 5%;
+}
+
+#search{
+    width: 70%;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid antiquewhite;
+    padding: 2%;
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: "Caveat", cursive;
+}
+
+.search_container img{
+    width: 25px;
+    &:hover{
+        width: 30px;
+        transition: ease-in-out 0.1s;
+    }
+}
+.search_container button{
+    border-radius: 0px 5px 5px 0px;
+    height: 50px;
+    width: 80px;
+    background-color:antiquewhite;
+    border: none;
+    &:hover{
+        background-color: bisque;
+    }
+}
+.zoomable {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.zoomable img {
+    transition: transform 1s ease;
+}
+
+.zoomable:hover img {
+    transform: scale(1.2);
+}
+.sec_M{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    font-family: "Caveat", cursive;
+}
+
+.sec_M img{
+    width: 1000px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Con{
+    position: relative;
+    text-align: center; 
+}
+
+.Temp{
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    padding: 1%;
+}
+
+.Pic{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    
+}
+.Pic img{
+    width: 100px;
+}
+
+.day{
+    position: absolute;
+    bottom: 30px;
+    right: 16px;
+    color: white;
+    font-weight: 500;  
+}
+.stat{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    font-weight: 500; 
+}
+
+
+
+.Stats_Cont{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    font-family: "Caveat", cursive; 
+}
+
+
+.Stats{    
+    background-color: rgb(242, 244, 249);
+    width: 30%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    border: 1px solid black;
+}
+.Stats p{
+    align-self: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Stats h3{    
+    font-size: large;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+}
+
+.HighLight{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
